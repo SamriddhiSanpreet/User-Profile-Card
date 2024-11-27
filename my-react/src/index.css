@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  text-align: center;
+  color: #ffffffd7;
+  font-size: 60px;
+}
+
+body{
+  background:url(https://i.pinimg.com/originals/5e/bb/59/5ebb5904b77071dd4415919c4b8730f0.jpg) rgba(0,0,0,0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.d-flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #202020d0;
+    text-align: center;
+    max-width: 300px;
+}
+h3{
+  font-size: 16px;
+  color: #585454;
+  padding: 0 10px;
+  text-align: center;
+}
+p{
+  max-width: 300px;
+  font-size: 15px;
+  text-align: center;
+  color: #494444;
+  padding: 0 10px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  background-color: #e4dede;
+  padding:20px;
+  margin-bottom: 30px;
+  width:300px;
+  height:500px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
